@@ -71,7 +71,7 @@
 }
 
 .form__submit {
-  display: inline-block;
+  /* display: inline-block; */
   border-radius: 10px;
   background-color: #0f41e1;
   padding: 1rem 2rem;
@@ -82,4 +82,10 @@
 .form__submit:hover {
   background-color: #567aea;
   cursor: pointer;
+}
+
+.error {
+  color: red;
+  z-index: 100;
+  font-size: 0.5rem;
 }
